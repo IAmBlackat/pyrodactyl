@@ -2,13 +2,13 @@ x-common:
     database: &db-environment
         # Do not remove the "&db-password" from the end of the line below, it is important
         # for Panel functionality.
-        MYSQL_PASSWORD: &db-password 'CHANGE_ME'
-        MYSQL_ROOT_PASSWORD: 'CHANGE_ME_TOO'
+        MYSQL_PASSWORD: &db-password 'oR13rGlPGL6kf1Q'
+        MYSQL_ROOT_PASSWORD: 'oR13rGlPGL6kf1Q'
     panel: &panel-environment
-        APP_URL: 'http://example.com'
+        APP_URL: 'http://pyro.ffstudios.io'
         # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
         APP_TIMEZONE: 'UTC'
-        APP_SERVICE_AUTHOR: 'noreply@example.com'
+        APP_SERVICE_AUTHOR: 'saurabh@ffstudios.io'
         DB_USERNAME: "pterodactyl"
         # DB_PASSWORD: "Uncomment this to user your own password"
         
@@ -17,7 +17,7 @@ x-common:
         # LE_EMAIL: ""
         
     mail: &mail-environment
-        MAIL_FROM: 'noreply@example.com'
+        MAIL_FROM: 'noreply@ffstudios.io'
         MAIL_DRIVER: 'smtp'
         MAIL_HOST: 'mail'
         MAIL_PORT: '1025'
